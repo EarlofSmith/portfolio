@@ -36,8 +36,8 @@ h2,h3,h4 {
     color: var(--alt-color-1);
     background-color: var(--alt-color-2);
     justify-content: center;
-    box-shadow: 10px 5px var(--alt-color-1);
-    padding: 0 5rem;
+    box-shadow: 10px 5px var(--main-color-1);
+    padding: 1rem 5rem;
 
 }
 
@@ -69,3 +69,39 @@ h2,h3,h4 {
     height: 30%;
     width: 30%;
 }
+
+.portfolio {
+    height: 33%;
+    width: 33%;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
