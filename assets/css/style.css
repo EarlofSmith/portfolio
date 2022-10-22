@@ -1,0 +1,49 @@
+:root {
+    --main-color-1: rgb(255, 0, 0);
+    --alt-color-1: black;
+    --alt-color-2: white;
+
+}
+
+::selection {
+    background-color: var(--alt-color-1);
+    color: var(--main-color-1);
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+     font-size: 1.2rem;
+     line-height: 1;
+     color: var(--alt-color-2);
+     background-color: var(--alt-color-1);
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+h2,h3,h4 {
+    font-size: 2.8rem;
+    display:block;
+    text-align: center;
+    color: var(--main-color-1);
+}
+
+.buttons {
+    display: inline-block;
+    color: var(--main-color-1);
+    background-color: var(--alt-color-2);
+    justify-content: center;
+    box-shadow: 10px 5px green;
+    padding: 0 5rem;
+
+}
+
+.button {
+    border: 5px var(--alt-color-1);
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
