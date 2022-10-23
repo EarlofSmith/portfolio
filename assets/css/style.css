@@ -18,12 +18,14 @@ body {
      line-height: 1;
      color: var(--alt-color-2);
      background-color: var(--alt-color-1);
+  
 }
 
 h1 {
     font-size: 4rem;
     text-align: center;
     text-shadow: 3px 3px var(--alt-color-1);
+    padding-top: 15px;
 }
 h2,h3,h4 {
     font-size: 2.8rem;
@@ -32,6 +34,7 @@ h2,h3,h4 {
     color: var(--alt-color-2);
     position: relative;
     text-shadow: 2px 2px var(--alt-color-1);
+    padding-top: 15px;
 }
 
 .background-about-me {
@@ -55,6 +58,22 @@ h2,h3,h4 {
     width: 100%;
     background-image: url(../images/broncos.JPG);
     background-size: cover ;
+    background-position: center;
+}
+
+.background-portfolio {
+    height: 150%;
+    width: 100%;
+    background-image: url(../images/coors-field.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroud-resume {
+    height: 150%;
+    width: 100%;
+    background-image: url(../images/mountains.JPG);
+    background-size: cover;
     background-position: center;
 }
 .buttons {
@@ -92,7 +111,8 @@ h2,h3,h4 {
 }
 .about-me {
    
-   border: 20px 25px red;
+   padding-bottom: 15px;
+   width: 100%;
     
 }
 
@@ -112,6 +132,10 @@ h2,h3,h4 {
     width: 30%;
 }
 
+.email {
+    padding-bottom: 15px;
+    justify-content: center;
+}
 .portfolio {
     height: 33%;
     width: 33%;
@@ -149,3 +173,12 @@ h2,h3,h4 {
   }
 
 /* https://www.w3schools.com/howto/howto_css_button_on_image.asp helped add button over and image */
+@media screen and (min-width:884px) {
+    body {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+    .email {
+        font-size: 2rem;
+    }
+}
