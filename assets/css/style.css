@@ -23,6 +23,7 @@ body {
 h1 {
     font-size: 4rem;
     text-align: center;
+    text-shadow: 3px 3px var(--alt-color-1);
 }
 h2,h3,h4 {
     font-size: 2.8rem;
@@ -30,13 +31,30 @@ h2,h3,h4 {
     text-align: center;
     color: var(--alt-color-2);
     position: relative;
+    text-shadow: 2px 2px var(--alt-color-1);
 }
 
-.background {
+.background-about-me {
     height: 100%;
     width: 100%;
-    background-image: url(../images/background.JPG);
+    background-image: url(../images/avs.JPG);
     background-size: cover;
+    background-position: center;
+}
+
+.background-head {
+    height: 150%;
+    width: 100%;
+    background-image: url(../images/background.JPG) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-contact {
+    height: 150%;
+    width: 100%;
+    background-image: url(../images/broncos.JPG);
+    background-size: cover ;
     background-position: center;
 }
 .buttons {
@@ -57,6 +75,21 @@ h2,h3,h4 {
     font-size: 2.5rem;
 }
 
+.contact {
+    text-align: center;
+    font-weight: 600;
+    margin: 3rem;
+    font-size: 4rem;
+    color: var(--alt-color-2);
+    text-shadow: 2px 2px var(--alt-color-1);
+}
+
+.contact-me {
+    display:inline-block;
+    justify-content: center;
+    text-decoration: none;
+    
+}
 .about-me {
    
    border: 20px 25px red;
@@ -64,10 +97,11 @@ h2,h3,h4 {
 }
 
 .about-me2 {
-    display: inline;
-    color: var(--alt-color-1);
+    display: inline-block;
+    color:var(--alt-color-2);
     text-align: left;
     font-size: 1.8rem;
+    text-shadow: 2px 2px var(--alt-color-1);
 }
 .about-me-txt {
     width: 70%;
@@ -76,7 +110,6 @@ h2,h3,h4 {
 .head-shot {
     height: 30%;
     width: 30%;
-    
 }
 
 .portfolio {
@@ -116,13 +149,3 @@ h2,h3,h4 {
   }
 
 /* https://www.w3schools.com/howto/howto_css_button_on_image.asp helped add button over and image */
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
