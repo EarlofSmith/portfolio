@@ -9,5 +9,5 @@
   https://www.w3schools.com/howto/howto_css_button_on_image.asp helped add button over an image
   google
 ## Screen shot and link
-![deployed webpage](./assets/images/resume-screenshot.png)
+![deployed webpage](./assets/images/portfolio-screenshot.png)
 https://earlofsmith.github.io/portfolio/
